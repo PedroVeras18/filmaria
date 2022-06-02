@@ -1,0 +1,35 @@
+.Filme{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.Filme img{
+    border-radius: 20px;
+}
+
+.Filme button{
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    padding: 12px;
+    transition: all .5s ease;
+}
+
+.Filme button:hover{
+    background-color: brown;
+    color: white;
+}
+.Filme a{
+    color: black;
+    transition: all .5s ease;
+}
+
+.Filme a:hover{
+    color: white;
+}
