@@ -5,6 +5,8 @@ import Header from './components/Home/Header';
 
 import Home from './pages/Home/Home'
 import Filme from './pages/Filme/Filme'
+import Favoritos from './pages/Favoritos/Favoritos';
+import Erro from './pages/Erro/Erro'
 
 export default function Rotas() {
     return (
@@ -14,6 +16,8 @@ export default function Rotas() {
                 <Routes>
                     <Route exact path='/' element={<Home />} />
                     <Route path='/filme/:id' element={<Filme />} />
+                    <Route path='/favoritos' element={<Favoritos />} />
+                    <Route path='*' element={<Erro />} />
                 </Routes>
             </Router>
         </div>
