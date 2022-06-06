@@ -54,3 +54,14 @@
     border-bottom-right-radius: 8px;
 }
 
+@media (max-width: 500px){
+    .Lista-filmes img{
+        width: 400px;
+        padding: 0px 10px;
+    }
+
+    .Lista-filmes article a{
+        width: 380px;
+    }
+}
+

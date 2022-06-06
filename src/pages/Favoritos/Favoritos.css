@@ -46,3 +46,14 @@ ul li div a {
     text-decoration: none;
     color: #000022;
 }
+
+@media (max-width: 500px){
+    ul li{
+        width: 380px;
+        padding: 10px;
+    }
+
+    span{
+        font-size: 15px;
+    }
+}
