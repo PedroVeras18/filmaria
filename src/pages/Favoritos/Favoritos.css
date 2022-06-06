@@ -1,13 +1,17 @@
 .Favoritos{
     display: flex;
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #222;
+    width: 100vw;
+    min-height: 100vh;
 }
+
 
 .Favoritos h1{
     margin: 10px 0;
+    color: white;
 }
 
 ul{
@@ -17,12 +21,12 @@ ul{
 ul li{
     padding: 10px;
     list-style: none;
-    min-width: 600px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    background-color: aqua;
+    background-color: #00b8f5;
     border-radius: 10px;
 }
 
@@ -32,9 +36,13 @@ span{
 
 button{
     margin-left: 10px;
+    padding: 5px 8px;
+    background-color: #000022;
+    color: white;
+    cursor: pointer;
 }
 
 ul li div a {
     text-decoration: none;
-    color: brown;
+    color: #000022;
 }

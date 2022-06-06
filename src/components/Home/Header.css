@@ -4,14 +4,16 @@ header{
     justify-content: space-around;
     width: 100vw;
     height: 60px;
-    background-color: brown;
+    background-color: #00b8f5;
 }
 
 .logo{
     text-decoration: none;
+    font-weight: 600;
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
 
 .favoritos{
     cursor: pointer;

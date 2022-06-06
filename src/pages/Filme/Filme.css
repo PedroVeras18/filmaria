@@ -1,12 +1,17 @@
 .Filme{
     display: flex;
     flex-direction: column;
-    max-width: 800px;
     margin: 0 auto;
+    background-color: #000022;
+    width: 100vw;
+    height: 100vh;
+    color: white;
 }
 
 .Filme img{
     border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .Filme button{
@@ -21,12 +26,20 @@
     transition: all .5s ease;
 }
 
+.Filme h3, h1{
+    margin: 10px 0;
+}
+
+.Filme p{
+    margin: 5px 20px;
+}
+
 .Filme button:hover{
     background-color: brown;
     color: white;
 }
 .Filme a{
-    color: black;
+    color: rgb(255, 255, 255);
     transition: all .5s ease;
 }
 
